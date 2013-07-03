@@ -9,7 +9,7 @@
         <title>Form LPK</title>
     </head>
     <body>
-        <h1>Form LPK</h1>
+        <h1>${namaScreen}</h1>
         
         <div class="row">
 
@@ -25,8 +25,8 @@
                         <label class="control-label" for="kolektor">Kolektor</label>
                         <div class="controls">
                             <select id="kolektor" name="kolektor">
-                                <c:forEach var="k" items="${daftarKolektor}">
-                                <option value="${k.id}">${k.nama}</option>
+                                <c:forEach var="kolektor" items="${daftarKolektor}">
+                                <option value="${kolektor.id}">${kolektor.nama}</option>
                                 </c:forEach>
                             </select>
                         </div>

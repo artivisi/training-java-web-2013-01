@@ -23,9 +23,9 @@ public class LPKServiceDummy implements LPKService {
         Kolektor k = new Kolektor();
         k.setId("K-001");
         k.setKode("K-001");
-        k.setNama("Kolektor 001");
+        k.setNama("Safi'ie");
         k.setCabang("Cabang 001");
-        k.setPerusahaan("Perusahaan 001");
+        k.setPerusahaan("Perusahaan <001>");
         hasil.add(k);
         
         Kolektor k2 = new Kolektor();

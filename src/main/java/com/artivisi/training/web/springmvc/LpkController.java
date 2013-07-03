@@ -28,6 +28,11 @@ public class LpkController {
         return lpkService.cariSemuaKolektor();
     }
     
+    @ModelAttribute("namaScreen")
+    public String judul(){
+        return "Form Input LPK";
+    }
+    
     @RequestMapping(value = "/lpk/form", method = RequestMethod.GET)
     public void tampilkanForm(){
         
