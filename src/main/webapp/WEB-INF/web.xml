@@ -13,4 +13,14 @@
         <url-pattern>/simpan-lpk.php</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>aplikasi-lpk</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>aplikasi-lpk</servlet-name>
+        <url-pattern>/aplikasi-springmvc/*</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
