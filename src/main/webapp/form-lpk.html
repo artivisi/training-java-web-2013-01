@@ -14,42 +14,43 @@ and open the template in the editor.
         <h1>Form LPK</h1>
 
         <div class="row">
-            <div class="span6">
-                <form class="form-horizontal">
+
+            <form class="form-horizontal" action="simpan-lpk" method="post">
+                <div class="span6">
                     <div class="control-group">
                         <label class="control-label" for="noLpk">No LPK</label>
                         <div class="controls">
-                            <input type="text" id="noLpk" placeholder="No. LPK">
+                            <input type="text" id="noLpk" name="noLpk" placeholder="No. LPK">
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="kolektor">Kolektor</label>
                         <div class="controls">
-                            <select name="kolektor">
+                            <select id="kolektor" name="kolektor">
                                 <option>Endy</option>
                                 <option>Anton</option>
                             </select>
                         </div>
                     </div>
-                </form>
-            </div>
+                </div>
 
-            <div class="span6">
-                <form class="form-horizontal">
+                <div class="span6">
                     <div class="control-group">
                         <label class="control-label" for="tanggalLpk">Tanggal</label>
                         <div class="controls">
-                            <input type="date" id="tanggalLpk" placeholder="Tanggal">
+                            <input type="date" id="tanggalLpk" name="tanggalLpk" placeholder="Tanggal">
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="nilai">Nilai</label>
                         <div class="controls">
-                            <input type="text" id="nilai" placeholder="Nilai">
+                            <input type="text" id="nilai" name="nilai" placeholder="Nilai">
                         </div>
                     </div>
-                </form>
-            </div>
+                </div>
+
+                <input type="submit" class="btn btn-primary" value="Simpan"/>
+            </form>
         </div>
 
         <div class="row">
