@@ -32,7 +32,7 @@ public class LPKServiceDummy implements LPKService {
         k2.setId("K-002");
         k2.setKode("K-002");
         k2.setNama("Kolektor 002");
-        k.setCabang("Cabang 002");
+        k2.setCabang("Cabang 002");
         k2.setPerusahaan("Perusahaan 002");
         hasil.add(k2);
         
