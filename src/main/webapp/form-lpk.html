@@ -7,15 +7,17 @@ and open the template in the editor.
     <head>
         <title>Form LPK</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
         <h1>Form LPK</h1>
         
-        <table border="1">
+        <table border="0" cellpadding="5">
             <tbody>
                 <tr>
                     <td>No. LPK</td>
-                    <td><input name="noLpk"></td>
+                    <td><input type="text" name="noLpk"></td>
                     <td>Kolektor</td>
                     <td>
                         <select name="kolektor">
@@ -33,6 +35,8 @@ and open the template in the editor.
             </tbody>
         </table>
 
-        
+    <!-- javascript ditaruh di akhir file supaya page bisa loading -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
     </body>
 </html>
