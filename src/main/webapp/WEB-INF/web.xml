@@ -10,7 +10,7 @@
     
     <servlet-mapping>
         <servlet-name>SimpanLpk</servlet-name>
-        <url-pattern>/simpan-lpk</url-pattern>
+        <url-pattern>/simpan-lpk.php</url-pattern>
     </servlet-mapping>
     
 </web-app>
